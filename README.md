@@ -1,6 +1,7 @@
-What are the most frequent words in Herman Melville's novel Moby Dick and how often do they occur? To answer this question we first need the text of the book which is freely available online at Project Gutenberg (contains a large corpus of books) as an HTML file: https://www.gutenberg.org/files/2701/2701-h/2701-h.htm.
+Which terms appear most frequently in Herman Melville's novel Moby Dick, and how often? The book's text is first required in order to respond to this question. It is openly accessible online at Project Gutenberg, which has a sizable collection of books, as an HTML file at https://www.gutenberg.org/files/2701/2701-h/2701-h.htm.
 
-To fetch the HTML file with Moby Dick Python package request is used to make a GET request for the website. Then to extract words from this web data BeautifulSoup is used. and the analysis of the distribution of words is done using the Natural Language ToolKit (nltk).
+A Python package request is used to initiate a GET request for the website in order to retrieve the HTML file using Moby Dick. Words are then extracted from this online data using BeautifulSoup. together with the Natural Language ToolKit (nltk) for the examination of the word distribution.
 
-So, what word turned out to be the most common word in Moby Dick?
+
+Which word was found to be most frequently used in Moby Dick?
 The answer is "whale"
